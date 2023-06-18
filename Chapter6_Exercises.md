@@ -6,14 +6,14 @@ $$E = P(X=1) = Np(1-p)^{N-1}$$
 
 To derive optimal efficiency with respect to $p$ take the derivative w.r.t $p$:
 
-
+$$
 \begin{align*}
 \frac{dE}{dp}&= N(1-p)^{N-1} - N(N-1)p(1-p)^{N-2} \\
 &=N(1-p)^{N-2}(1-p-Np+p) \\ 
 &=N(1-p)^{N-2}(1-Np)\\
 &=0
 \end{align*}
-
+$$
 
 This is achieved when $p=1/N$ (p cannot be 1 otherwise collision will always occur). Take the limit w.r.t N:
 
