@@ -17,14 +17,12 @@ To derive optimal efficiency with respect to $p$ take the derivative w.r.t $p$:
 
 This is achieved when $p=1/N$ (p cannot be 1 otherwise collision will always occur). Take the limit w.r.t N:
 
-$$
 \begin{align*}
 \lim_{\rightarrow \infty} Np^*(1-p^*)^{N-1} &= \lim_{N\rightarrow \infty} \left(1 -\frac{1}{N}\right)^{N-1} \\
 &=\lim_{N\rightarrow \infty} \left(1 -\frac{1}{N}\right)^{N} /\left(1 -\frac{1}{N}\right)\\
 &=\lim_{N\rightarrow \infty} \left(1 -\frac{1}{N}\right)^{N} /\lim_{N\rightarrow \infty} \left(1 -\frac{1}{N}\right) \\
 &= 1/e/1 = 1/e
 \end{align*}
-$$
 
 ### 2. Find the maximum efficiency of ALOHA: 
 
